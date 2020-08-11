@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Latexのtable作成ツール</title>
+</head>
+<body>
+    <div align="center">
+        <h1>CSV → tex表変換ツール</h1>
+        <br>
+        <form method="post" action="/" enctype="multipart/form-data">
+            <input type="file" id="send_data" name="send_data">
+            <input type="submit" value="送信">
+        </form>
+        <br>
+        <br>
+        <textarea name="text" rows="50" cols="100">{{ text }}</textarea>
+    </div>
+
+</body>
+</html>
